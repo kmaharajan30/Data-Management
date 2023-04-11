@@ -1,0 +1,13 @@
+.leftSide{
+  width: 20%;
+  height:900px;
+  float: left;
+  background-color: rgb(151, 129, 129);
+
+}
+.rightSide{
+  width: 80%;
+  height: 900px;
+  float: right;
+  background-color: beige;
+}

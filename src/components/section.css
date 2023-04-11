@@ -1,0 +1,44 @@
+.section{
+    /* border: 3px solid red; */
+    height: 92vh;
+    width: 100%;
+}
+img{
+    /* object-fit: contain; */
+    height: 92vh;
+    width:100vw;
+    opacity: 0.8;
+    
+}
+.bgimage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* padding: 300px */
+    /* margin: auto; */
+    /* margin: 50px; */
+    /* margin-top: 200px; */
+}
+.bgimage h4{
+
+    color: white;
+    font-size: 2rem;
+    margin-top: 250px;
+    
+    
+    
+}
+.bgimage ::before{
+    content: '';
+    background: url('https://images.unsplash.com/photo-1521587760476-6c12a4b040da?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+    z-index: -2;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    height: 92vh;
+    width: 100vw;
+    opacity: 0.7;
+}
+
